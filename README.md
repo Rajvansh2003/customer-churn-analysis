@@ -4,43 +4,34 @@
 
 This project analyzes customer data to understand customer churn and retention patterns.
 
-The main goal is to use SQL and Python to explore customer information, identify churn patterns, and understand which customer groups have higher churn.
+The analysis uses SQLite, SQL, and Python to explore the data and identify churn patterns.
 
 ## Tools Used
 
 - SQLite
 - SQL
 - Python
-- Pandas
+- Jupyter Notebook
 
 ## Analysis
 
-The project looks at questions such as:
+The project focuses on:
 
-- How many customers have churned?
-- What is the overall churn rate?
-- Which customer groups have higher churn?
-- How does customer tenure relate to churn?
-- Which subscription types have higher churn?
-- How does customer usage relate to churn?
-- What are the main patterns among churned customers?
+- Customer churn
+- Churn rate
+- Customer groups
+- Customer tenure
+- Subscription information
+- Customer usage
+- Retention patterns
 
-## Key Findings
+## Project Files
 
-- Churn varies across different customer groups.
-- Customers with different subscription types show different churn patterns.
-- Customer tenure and usage can be compared to understand churn behaviour.
-- The analysis helps identify customer groups that may need more attention.
+- `data xlsx.xlsx` - Customer dataset used for the analysis
+- `customer_churn_db.db` - SQLite database used for the project
+- `churn_analysis.ipynb` - Python analysis notebook
+- `Customer-Churn-Analysis-SQL-Python.pptx` - Project presentation
 
-## Project Structure
+## Purpose
 
-```text
-customer-churn-analysis/
-│
-├── Customer-Churn-Analysis-Sql-Python/
-│   ├── data/
-│   ├── sql/
-│   ├── python/
-│   └── outputs/
-│
-└── README.md
+This project was created to practice SQL and Python while analyzing customer churn and retention patterns.

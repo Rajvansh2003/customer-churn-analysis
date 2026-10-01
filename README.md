@@ -37,8 +37,10 @@ The project looks at questions such as:
 ```text
 customer-churn-analysis/
 │
-├── data/
-├── sql/
-├── python/
-├── outputs/
+├── Customer-Churn-Analysis-Sql-Python/
+│   ├── data/
+│   ├── sql/
+│   ├── python/
+│   └── outputs/
+│
 └── README.md
